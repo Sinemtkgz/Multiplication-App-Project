@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.score {
+  font-size: 18px;
+  text-align: right;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.input {
+  padding: 10px;
+  width: 265px;
+}
+
+.btn_submmit {
+  width: 265px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn_submmit:hover {
+  background-color: #45a049;
+}
